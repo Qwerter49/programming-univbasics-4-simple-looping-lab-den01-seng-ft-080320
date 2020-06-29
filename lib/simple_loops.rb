@@ -16,12 +16,12 @@ end
 
 def return_string_array(array)
   counter = 0
-  newArray = []
+  new_array = []
   while counter < array.length do 
     newArray << array[counter].to_s
     counter += 1 
   end
-  return newArray
+  return new_array
 end 
 
   
