@@ -21,6 +21,7 @@ def return_string_array(array)
     newArray << array[counter].to_s
     counter += 1 
   end
+  return newArray
 end 
 
   
